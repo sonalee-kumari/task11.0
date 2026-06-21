@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+select {
+    width: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #bcb7b7;
+}
+
+option {
+    background-color: rgb(147, 151, 153);
+    color: black;
+    font-size: 16px;
+}.cart-container{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 150px;
+}
+.cart-left{
+    flex: 2;
+}
+.cart-left h1{
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.cart-right{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.coupon{
+    display: flex;
+    margin: 20px 0;
+
+}
+.coupon input{
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+.coupon button{
+    margin-left: 10px;
+    padding: 12px 20px;
+    background: #616264;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.summary p,
+.summary h2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.pay-btn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: #f8a26d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.continue{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+.cart-right img{
+    width: 120px;
+    height: auto;
+    
+}
+@media(max-width:768px){
+    .cart-container{
+        flex-direction: column;
+    }
+}
